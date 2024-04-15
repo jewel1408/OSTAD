@@ -1,0 +1,45 @@
+/* Class Selector */
+.container{
+    border: 1px solid brown;
+
+    /* Start Card Measurement */
+    height: 340px;
+    width: 240px;
+    /* End of Measurement */
+
+    /* Start Position- Centered Both Horizontally and Vertically */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    /* End Of Position */
+
+    /* Start Info */
+    display: grid;
+    place-items: center;
+    padding: 10px;    
+    /* End of Info */
+    
+    /* Start Decorations */
+    border-radius: 8px;
+    background-image: linear-gradient(to top, #9CAFAA 0%, #FBF3D5 100%);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    /* End of Decorations */    
+}
+
+/* Element Selector */
+img{
+    border: 2px solid grey;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* ID Selector */
+#info {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: smaller;
+}

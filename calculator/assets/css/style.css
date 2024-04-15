@@ -1,0 +1,25 @@
+.container{
+    border: 1px solid lightgray;
+    background-color: #FBFADA;
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 700px;
+    padding: 26px 40px 0px 40px;  /* TOP RIGHT BOTTOM LEFT */ */
+}
+
+label{
+    padding-bottom: 10px;
+}
+
+.btn-group{
+    margin: 20px 0px 20px 0px;
+}
+
+section{
+    border: 1px solid lightgray;
+    height: 34px;
+    padding: 3px 0px 0px 8px;
+    background-color: #ffbf80;
+    border-radius: 4px;
+    margin: 0px 0px 34px 0px;   
+}
